@@ -1,6 +1,13 @@
 import React from "react";
 
 const ListItems = (props) => {
-  return <li className="items">Hello the value is {props.valuex}</li>;
+  const {list}=props
+  return (
+  <ul>
+    {list.map(all=>{
+    return  <li className="items">Hello the value is {all}</li>;
+    })}
+  </ul>
+  )
 };
 export default ListItems;
