@@ -3,7 +3,7 @@ import React from "react";
 const ListItems = (props) => {
   const {list}=props
   return (
-    <div>
+    <div id='list'>
        
   <ul>
     
