@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ListItems from './ListItems';
 
  const List = ({listx}) =>{
   return(
     // code here
-    
-      <ListItems list={listx} />  
+    <Fragment>
+        <ul>
+        <ListItems list={listx} /> 
+        </ul>
+    </Fragment>
+       
     
     
   )
